@@ -87,3 +87,12 @@ After your VM engine has started, if using a Mac you will need to open up a sess
 <img width="2548" height="1550" alt="image" src="https://github.com/user-attachments/assets/2ffa14d2-0727-42d0-b741-a84a11f2c2e0" />
 <img width="1093" height="617" alt="image" src="https://github.com/user-attachments/assets/0349c359-7be0-405f-9095-cfecf85c563a" />
 <img width="1062" height="592" alt="image" src="https://github.com/user-attachments/assets/c70dd039-aa4a-46bd-8ae5-bac8df814b78" />
+
+# Step 7: Refresh the osTicket Site in Your Browser
+
+- Refresh the osTicket website, observe the change
+- Intl Extension should now have a green checkmark next to it
+<img width="1658" height="1490" alt="image" src="https://github.com/user-attachments/assets/a3c08316-659d-4856-a5f0-c662716be284" />
+
+# Step 8: Rename
+
