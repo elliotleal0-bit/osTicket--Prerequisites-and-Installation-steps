@@ -11,6 +11,23 @@ This tutorial outlines the prerequisites and installation steps of the open sour
 - Microsoft Azure
 - Virtual Machine
 - osTicket Installation Files
+
+# Overview
+
+- Step 1: Connect to your Virtual Machine with Remote Desktop
+- Step 2: Install and Enable Internet Information Services (IIS) in Windows
+- Step 3: Download, Install, and Open the Web Platform Installer
+- Step 4: Install osTicket v1.15.8
+- Step 5: Restart the IIS Server
+- Step 6: Enable Extensions in IIS
+- Step 7: Refresh the osTicket Site in Your Browser
+- Step 8: Rename
+- Step 9: Permissions Assigned to ost-config.php
+- Step 10: Continue Setting Up osTicket in Browser
+- Step 11: Download and Install HeidiSQL
+- Step 12: Finish setting up osTicket
+- Step 13: Post-Intallation Cleanup
+
 # Installation Steps
 # Step 1: Connect to your Virtual Machine with Remote Desktop
 <img width="2234" height="1212" alt="image" src="https://github.com/user-attachments/assets/bf7c7bc9-fc41-4673-a1f7-092c8bbe84dc" />
