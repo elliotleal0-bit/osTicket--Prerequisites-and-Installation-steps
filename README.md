@@ -95,4 +95,75 @@ After your VM engine has started, if using a Mac you will need to open up a sess
 <img width="1658" height="1490" alt="image" src="https://github.com/user-attachments/assets/a3c08316-659d-4856-a5f0-c662716be284" />
 
 # Step 8: Rename
+- Open Windows Explorer and select C: > inetpub > wwwroot > osTicket > include
+- Rename the following file:
+ost-SAMPLEconfig.php to ost-config.php
+<img width="2246" height="1274" alt="image" src="https://github.com/user-attachments/assets/8f663404-88ab-4962-85bf-1399c7a27ab7" />
 
+# Step 9: Permissions Assigned to ost-config.php
+
+- Right click ost-config.php
+- Go to Properties + Security + Advanced + Permissions
+- Choose Disable Inheritance + Remove all inherited permissions from this object
+<img width="2408" height="1508" alt="image" src="https://github.com/user-attachments/assets/e99130af-5e04-42c0-9e17-d52350e2e805" />
+
+- Select Add + Principal + type in "everyone" + check names + OK
+- Allow everyone full control, check all boxes, select apply and OK
+<img width="914" height="496" alt="image" src="https://github.com/user-attachments/assets/421edf26-e03d-4d11-a33f-397f0252aaf1" />
+<img width="1830" height="1182" alt="image" src="https://github.com/user-attachments/assets/f8e4b8a0-845a-42e9-8b5a-8f1c5018bf1b" />
+<img width="835" height="556" alt="image" src="https://github.com/user-attachments/assets/71950225-a324-4817-99a3-67fad2085c5c" />
+
+# Step 10: Continue Setting Up osTicket in Browser
+
+- Return back to browser and click continue
+- Name : Helpdesk
+- Email : Create however you want
+- First Name: Your first name
+- Last Name: Your last name
+- Email Address: Any email (needs to be different from the Helpdesk's default email)
+- Username: user_admin
+- Password: Password1
+<img width="1618" height="1228" alt="image" src="https://github.com/user-attachments/assets/e7adc6ac-bb10-4401-a576-95c2a8678efe" />
+
+# Step 11: Download and Install HeidiSQL
+
+- Head to osTicket Installation Files, download and install HeidiSQL
+- Open HeidiSQL, select New at the bottom left corner of the screen
+- user: root
+- Password: Password
+- Click open
+- On the right side, right click Unnamed + Create new + Database
+- Name "osTicket" and click OK
+<img width="1368" height="966" alt="image" src="https://github.com/user-attachments/assets/3178eb1b-e232-475a-888b-abde241559c7" />
+<img width="1868" height="1182" alt="image" src="https://github.com/user-attachments/assets/b02f25aa-0de9-4b60-92e7-0c2789d8c212" />
+
+# Step 12: Finish setting up osTicket
+
+- Return to browser
+- MySQL Database: osTicket (the one you just created in HeidiSQL)
+- MySQL Username: root
+- MySQL Password: Password1
+- Click Install Now
+<img width="1642" height="754" alt="image" src="https://github.com/user-attachments/assets/7afc051e-14dc-4506-96cc-3d7aef849c6c" />
+
+You have officially and successfully installed osTicket and all of its prerequisite files!
+<img width="1654" height="1280" alt="image" src="https://github.com/user-attachments/assets/395b6413-a9d8-413c-b64d-3f57a8780b03" />
+
+# Quick Notes
+
+- To create tickets as a user: http://localhost/osTicket/
+- To log in as an Admin or helpdesk professional: http://localhost/osTicket/scp
+
+# Step 13: Post-Intallation Cleanup
+
+- Go to C: > inetpub > wwwroot > osTicket > Setup
+- Delete the files in the Setup folder
+- Delete the Setup folder
+- Go to C: > Inetpub > wwwroot > osTicket > Include
+- Right-click on ost-config.php
+- Click Securities + Advanced + Click on "everyone" + edit to change permissions
+- Allow everyone to only have "Read and execute" permission, then click OK + Apply + OK
+<img width="2246" height="1280" alt="image" src="https://github.com/user-attachments/assets/eb86e158-e622-4e16-a107-bb5290cff858" />
+<img width="1834" height="1178" alt="image" src="https://github.com/user-attachments/assets/c5dc6357-d1c4-40fb-a3ae-8c0afd86ca39" />
+
+Congratulations, you have installed osTicket successfully!
