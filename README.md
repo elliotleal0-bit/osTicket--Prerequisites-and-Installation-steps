@@ -32,7 +32,7 @@ This tutorial outlines the prerequisites and installation steps of the open sour
 # Step 1: Connect to your Virtual Machine with Remote Desktop
 <img width="2234" height="1212" alt="image" src="https://github.com/user-attachments/assets/bf7c7bc9-fc41-4673-a1f7-092c8bbe84dc" />
 
-After your VM engine has started, if using a Mac you will need to open up a session on the windows app using the Public IP address from your VM. Using the credentials saved, you will be able to open up a remote desktop session.
+- After your VM engine has started, if using a Mac you will need to open up a session on the windows app using the Public IP address from your VM. Using the credentials saved, you will be able to open up a remote desktop session.
 <img width="2234" height="1212" alt="image" src="https://github.com/user-attachments/assets/73fd4c09-5ffe-4c6a-88aa-dec9abd9593c" />
 
 # Step 2: Install and Enable Internet Information Services (IIS) in Windows
